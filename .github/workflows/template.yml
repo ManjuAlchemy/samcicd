@@ -15,7 +15,7 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: ap-south-1
       # sam build 
-      - run: sam build
+      - run: sam build --use-container
       - uses: aws-actions/setup-sam@v1
         with:
           version: 1.23.0
