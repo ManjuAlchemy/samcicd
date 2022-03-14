@@ -23,5 +23,5 @@ jobs:
 # Run Unit tests- Specify unit tests here 
 
 # sam deploy
-      - run: sam deploy --no-confirm-changeset --no-fail-on-empty-changeset --stack-name github-actions-with-aws-sam --s3-bucket cicd-pipelines --capabilities CAPABILITY_IAM --region ap-south-1
+      - run: sam deploy --no-confirm-changeset --no-fail-on-empty-changeset --stack-name github-actions-with-aws-sam --s3-bucket samcli-cicd --capabilities CAPABILITY_IAM --region ap-south-1
 
