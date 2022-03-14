@@ -1,0 +1,28 @@
+====================AWS creds==========================
+
+AKIAR7TYGLDJQ5QDYYVG
+YjMpgfmkKm2udckaefBd4/0ul6AqeBTvsO/ONsgl
+
+
+
+=====================git access========
+echo "# samcicd" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/ManjuAlchemy/samcicd.git
+git push -u origin main
+
+
+
+git remote add origin https://github.com/ManjuAlchemy/samcicd.git
+git branch -M main
+git push -u origin main
+
+git remote set-url origin ghttps://github.com/ManjuAlchemy/samcicd.git
+git config --global user.name "ManjuAlchemy"
+git config --global user.email "rvmanjunath5@gmail.com"
+
+==============git access token=============
+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
